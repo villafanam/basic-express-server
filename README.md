@@ -2,17 +2,17 @@
 
 ## Project: basic-express-server
 
-### Author: Marco Villafana
+### Author: Marco Villafana, Steve Gant, Brenda Jow
 
 ### Problem Domain  
 
-Concise Description of why this app exists
+Basic API Server where we write some middleware and practice deployment
 
 ### Links and Resources
 
-- [GitHub Actions ci/cd](https://github.com/rkgallaway/server-deployment-practice-d51/actions) 
-- [back-end server url](http://xyz.com) (when applicable)
-- [front-end application](http://xyz.com) (when applicable)
+- [GitHub Actions ci/cd](https://github.com/villafanam/basic-express-server/actions) 
+- [back-end server url](http://xyz.com)
+
 
 ### Setup
 
@@ -29,15 +29,18 @@ for now I have none and do not require one
 
 #### Features / Routes
 
-- Feature One: Details of feature
-- GET : `/hello` - specific route to hit
+- Feature One: We will be building a basic Express server using best practices, including server modularization, use of middleware, and tests.
 
 #### Tests
 
-- How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+- `npm test` in terminal to start tests
+- tests
+  - handle bad route
+  - handle bad method (Incomplete)
+  - handle no name in query string
+  - handle name in query string
+  - handle output object is correct (Incomplete)
 
 #### UML
 
-Link to an image of the UML for your application and response to events
+![lab 02 UML](./assets/lab02_uml.png)
