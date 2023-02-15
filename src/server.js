@@ -15,8 +15,8 @@ app.get('/', (req, res) => {
 });
 
 app.get('/person', logger, validator, (req, res, next) => {
-  const person = {name: req.query.name};
-  res.status(200).json(person);
+  //const person = {name: req.query.name};
+  res.status(200).json(req.query);
 });
 
 app.use('*', notFound);
