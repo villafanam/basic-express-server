@@ -11,7 +11,7 @@ Basic API Server where we write some middleware and practice deployment
 ### Links and Resources
 
 - [GitHub Actions ci/cd](https://github.com/villafanam/basic-express-server/actions) 
-- [back-end server url](http://xyz.com)
+- [back-end server url](https://basic-express-server-f2bw.onrender.com)
 
 
 ### Setup
